@@ -1,0 +1,19 @@
+﻿<br />
+<h4>Szukaj w swoich zadaniach</h4>
+<br /><br />
+<p>Podaj nazwę zadania:</p>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResults">
+            <div class="form-group">
+                <label name="SearchPhrase" class="control-label"></label>
+                <input name="SearchPhrase" class="form-control" />
+            </div>
+            <br />
+            <div class="form-group">
+                <input class="btn btn-dark" type="submit" value="Szukaj"/> |
+                <a class="btn btn-dark" asp-action="Index">Powrót do listy wszystkich zadań</a>
+            </div>
+        </form>
+    </div>
+</div>
